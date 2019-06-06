@@ -1,0 +1,53 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 200px;
+    background-color: #ff5959;
+}
+a , h1 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+#banner {
+    height: 350px;
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+}
+
+#banner > div {
+    width: 300px;
+    background-color: rgba(255, 255, 255,0.5);
+    padding: 16px;
+}
+
+#banner > div h2 {
+    color: #ff5959;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+/* 
+IMAGENES DE CONTENIDO : Son imagenes que representan contenido real de la pagina : 
+<img src="url" alt="mini descripcion de la imagen" title="mensaje que se ve cuando el cursor esta encima">
+IMAGENES SECUNDARIAS : Imagenes de decoracion : tramas , fondos, iconos , etc
+background-image : url("")
+*/ 
